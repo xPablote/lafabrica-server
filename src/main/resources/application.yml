@@ -1,0 +1,11 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: lafabrica-server
+logging:
+  level:
+    org:
+      springframework:
+        security:
+          oauth2: trace
